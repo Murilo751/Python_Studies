@@ -12,15 +12,15 @@
 salario = float(input("Digite seu salário "))
 
 if salario < 280.00:
-    percent = 20
+    percent = salario * 20/100
 elif 280.00 <= salario <= 700.00:
-    percent = 15
+    percent = salario * 15/100
 elif 700.00 <= salario <= 1500.00:
-    percent = 10
+    percent = salario * 10/100
 elif salario > 1500.00:
-    percent = 5
+    percent = salario * 5/100
 
-aumento = salario + (percent/100)
+aumento = salario + percent
 newSalario = salario + aumento
 
 print("seu salario anterior era", salario)
