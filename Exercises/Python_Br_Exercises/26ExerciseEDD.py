@@ -8,7 +8,7 @@
 # Escreva um algoritmo que leia o número de litros vendidos, o tipo de combustível (codificado da seguinte forma: A-álcool, G-gasolina), calcule e imprima o valor a ser pago pelo cliente sabendo-se que o preço do litro da gasolina é R$ 2,50 o preço do litro do álcool é R$ 1,90.
 
 combustivel = str(input("Qual tipo de combustivel ? Digite A para álcool e digite G para gasolina \n"))
-litros = int(input("Quantos litros foram ventidos \n"))
+litros = int(input("Quantos litros foram vendidos \n"))
 
 if combustivel.upper() == "A":
     valor = litros * 1.90
